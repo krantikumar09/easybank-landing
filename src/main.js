@@ -2,11 +2,15 @@
 // const hamburger = document.querySelector(".hamburger");
 
 
+
 import { domainToUnicode } from "url";
 
 tailwind.config = {
   theme: {
     extend: {
+      backgroundImage: {
+        "hero-destop": "url('images/bg-intro-desktop.svg')",
+      },
       colors: {
         pri: "hsl(233, 26%, 24%)",
         sec: "hsl(233, 8%, 62%)",
