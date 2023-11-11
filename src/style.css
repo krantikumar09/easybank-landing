@@ -1,0 +1,25 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Public Sans", sans-serif;
+}
+
+:root {
+  --pri-color: hsl(233, 26%, 24%);
+  --sec-color: hsl(233, 8%, 62%);
+  --ter-color: hsl(220, 16%, 96%);
+  --four-color: hsl(0, 0%, 98%);
+
+  --gradient: linear-gradient(to right, hsl(136, 65%, 51%), hsl(192, 70%, 51%));
+}
+
+.bg-gradient {
+  background: var(--gradient);
+}
+
+/* header */
+
+.menu.active {
+  max-height: 320px;
+}
